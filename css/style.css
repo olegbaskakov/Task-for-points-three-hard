@@ -77,7 +77,7 @@ body {
 .product__price {
   font-size: 19px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 24px;
   margin-bottom: 34px;
 }
 
@@ -92,7 +92,7 @@ body {
   list-style-type: none;
 }
 
-.product__list li{  
+.line {  
   text-align: center;
   position: relative;
   font-size: 16px;
@@ -100,7 +100,7 @@ body {
   line-height: 26px; 
 }
 
-.product__list li:before{
+.line:before {
   content: '✔';
   position: absolute;  
   left: -20px;
