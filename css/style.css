@@ -81,7 +81,7 @@ body {
   margin-bottom: 34px;
 }
 
-.price__rate {
+.product__rate {
   font-size: 30px;
 }
 
@@ -92,7 +92,7 @@ body {
   list-style-type: none;
 }
 
-.line {  
+.product__line {  
   text-align: center;
   position: relative;
   font-size: 16px;
@@ -100,7 +100,7 @@ body {
   line-height: 26px; 
 }
 
-.line:before {
+.product__line:before {
   content: '✔';
   position: absolute;  
   left: -20px;
