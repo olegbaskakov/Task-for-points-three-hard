@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  font-family: "ProximaNova-Regular", sans-serif;
+}
+
+body {
+  background-color: #006a00;
+  margin: 0px;
+}
+
+.price-list{
+  border-bottom: 52px solid #fff;
+  border-top: 52px solid #fff;
+}
+
+.additional-work {
+  border-bottom: 52px solid #fff;
+}
+
+.price-list__content{
+  width: 1280px;
+  margin: 0px auto;
+  padding-top: 172px;
+  padding-bottom: 120px;
+}
+
+.additional-work__content{
+  width: 1210px;
+  margin: 0px auto;
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+
+.section__title {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.section__subtitle {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+
+.section__production {
+  display: flex;
+  justify-content: space-between;
+}
+
+.production__product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 660px;
+  padding: 50px;
+  background-color: #fff;
+  color: #1a1820;
+}
+
+.product__title {
+  margin: 0px;
+  margin-bottom: 33px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.product__image {
+  margin-bottom: 37px;
+}
+.product__price {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 34px;
+}
+
+.price__rate {
+  font-size: 30px;
+}
+
+.product__list {
+  display: contents;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.product__list li{  
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+}
+
+.product__list li:before{
+  content: '✔';
+  position: absolute;  
+  left: -20px;
+  color: #26650a;
+}
+
+.product__button {
+  position: absolute;
+  bottom: 50px;
+}
+
+.button {
+  text-transform: uppercase;
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  border: 1px solid #ffba15;
+  background-color: #ffb504;
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+  color: #fff;
+}
+
+.product__button {
+  padding: 20px 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card__button {
+  display: block;
+  margin: 0px auto;
+  padding: 20px 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section__service {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__image {
+  margin-bottom: 50px;
+}
+
+ 
