@@ -47,12 +47,12 @@ body {
   margin-bottom: 90px;
 }
 
-.section__production {
+.production {
   display: flex;
   justify-content: space-between;
 }
 
-.production__product {
+.product {
   position: relative;
   display: flex;
   flex-direction: column;
